@@ -228,6 +228,26 @@ nav {
     transform: scale(1.1);
 }
 
+/* This is the start of FAQ style */
+
+.faq-section {
+    grid-column: 1 / 11;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.faq-image-wrapper {
+    grid-column: 1 / 11;
+    background-image: url("../images/rafting_pic3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
