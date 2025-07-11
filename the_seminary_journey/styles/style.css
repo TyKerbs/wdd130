@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CC5803 ;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 10px;
+    margin-right: 200px;
+}
+
+nav a {
+    text-align: center;
+    background-color: #E2711D;
+    color: #FFB627;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #FF9505;
+    color: aliceblue;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-section {
+    width: 95vw;
+    background-image: url("../images/reading_scriptures.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 5vh;
+}
+
+.objectives-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.objectives-section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cta-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #CC5803 ;
+}
+
+footer div.social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
