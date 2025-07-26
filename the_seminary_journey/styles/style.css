@@ -61,6 +61,16 @@ main {
 .objectives-section div {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+
+.objectives-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .cta-section {
@@ -160,3 +170,18 @@ button:hover {
     width: 100%;
   }
 }
+
+.temp-section {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 40px;
+}
+
+.temp-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+
